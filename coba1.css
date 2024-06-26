@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+
+body {
+    background-color: #00005A; /* Dark blue background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color:  #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+.nav-social-media ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-social-media ul li {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.news-item {
+    background-color: #00005A; /* Dark blue background for news items */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.news-item img {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.news-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.news-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
